@@ -24,8 +24,8 @@ Employee.prototype.getSalary = function (level) {
     min = 1500;
     max = 2000;
   }
-  netSalary = Math.round(Math.random() * (max - min) + min);
-  return netSalary;
+  netSalary = (Math.random() * (max - min) + min) * 0.925;
+  return Math.round(netSalary);
 };
 
 Employee.prototype.render = function () {
@@ -37,9 +37,10 @@ Employee.prototype.render = function () {
     <th>Full Name </th> 
     <th>Department</th>
     <th>Level </th>
+    <th>Salary</th>
   </tr>
   <tr>
-    <td> ${this.id} </td> <td>${this.fullName}</td> <td>${this.department}</td> <td>${this.level}</td>
+    <td> ${this.id} </td> <td>${this.fullName}</td> <td>${this.department}</td> <td>${this.level}</td><td>${this.salary}</td>
   </tr>
 </table>`
   );
