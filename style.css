@@ -1,0 +1,52 @@
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #54bab9;
+  color: white;
+  font-size: 30px;
+  border: solid;
+}
+
+.footer {
+  text-align: center;
+  background-color: #f7ecde;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  width: 150px;
+  height: 300;
+  border: solid;
+  text-align: center;
+  background-color: #e9dac1;
+}
+
+.img {
+  border-radius: 5px 5px 0 0;
+  width: 150px;
+}
+
+.container {
+  padding: 2px 16px;
+}
+.backgroundMain {
+  background-color: #18978f;
+}
+.card-admin {
+  display: flex;
+  justify-content: center;
+}
+.finance-card {
+  display: flex;
+  justify-content: flex-start;
+}
+.market-card {
+  display: flex;
+  justify-content: flex-end;
+}
+.dev-card {
+  display: flex;
+  justify-content: space-around;
+}
