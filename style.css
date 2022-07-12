@@ -34,19 +34,18 @@
 .backgroundMain {
   background-color: #18978f;
 }
-.card-admin {
+.admin-card {
   display: flex;
-  justify-content: center;
 }
 .finance-card {
   display: flex;
-  justify-content: flex-start;
 }
 .market-card {
   display: flex;
-  justify-content: flex-end;
 }
 .dev-card {
   display: flex;
-  justify-content: space-around;
+}
+.h2 {
+  color: #e9dac1;
 }
