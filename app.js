@@ -73,6 +73,7 @@ Employee.prototype.render = function () {
   info.textContent = `Name :${this.fullName} \r\n- ID :${this.id} \r\nDepartment : ${this.department} - ${this.level} \r\n${this.salary}`;
   info.innerHTML = info.innerHTML.replace(/\r\n?/g, "<br>");
   // add class employee
+
   card.className = "card";
   imgEmp.src = this.img;
   imgEmp.className = "img";
@@ -97,49 +98,49 @@ const ghaziSamer = new Employee(
   "Ghazi Samer",
   "Administration",
   "Senior",
-  "/assets/Ghazi.jpeg"
+  "../assets/Ghazi.jpeg"
 );
 const lanaAli = new Employee(
   1001,
   "Lana Ali",
   "Finance",
   "Senior",
-  "/assets/Lana.jpeg"
+  "../assets/Lana.jpeg"
 );
 const tamaraAyoub = new Employee(
   1002,
   "Tamara Ayoub",
   "Marketing",
   "Senior",
-  "/assets/Tamara.jpeg"
+  "../assets/Tamara.jpeg"
 );
 const safiWalid = new Employee(
   1003,
   "Safi Walid",
   "Administration",
   "Mid-Senior",
-  "/assets/Safi.jpeg"
+  "../assets/Safi.jpeg"
 );
 const omarZaid = new Employee(
   1004,
   "Omar Zaid",
   "Development",
   "Senior",
-  "/assets/Omar.jpeg"
+  "../assets/Omar.jpeg"
 );
 const ranaSaleh = new Employee(
   1005,
   "Rana Saleh",
   "Development",
   "Junior",
-  "/assets/Rana.jpeg"
+  "../assets/Rana.jpeg"
 );
 const hadiAhmad = new Employee(
   1006,
   "Hadi Ahmad",
   "Finance",
   "Mid-Senior",
-  "/assets/Hadi.jpeg"
+  "../assets/Hadi.jpeg"
 );
 
 for (let i = 0; i < allEmployee.length; i++) {
@@ -156,4 +157,4 @@ mainjs[0].appendChild(marketing);
 development.className = "dev-card";
 mainjs[0].appendChild(development);
 
-// console.log(mainjs);
+console.log(mainjs);

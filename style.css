@@ -21,6 +21,7 @@
   border: solid;
   text-align: center;
   background-color: #e9dac1;
+  margin: 20px;
 }
 
 .img {
@@ -36,15 +37,27 @@
 }
 .admin-card {
   display: flex;
+  margin-left: 584px;
+  width: 50%;
+  padding: 10px;
 }
 .finance-card {
   display: flex;
+  margin-left: 660px;
+  width: 50%;
+  padding: 10px;
 }
 .market-card {
   display: flex;
+  margin-left: 632px;
+  width: 50%;
+  padding: 10px;
 }
 .dev-card {
   display: flex;
+  margin-left: 606px;
+  width: 50%;
+  padding: 10px;
 }
 .h2 {
   color: #e9dac1;
